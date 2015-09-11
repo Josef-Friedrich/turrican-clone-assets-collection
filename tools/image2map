@@ -1,0 +1,9 @@
+#! /bin/sh
+
+if [ -z "$@" ]; then
+	Image2Map.py --help
+	exit 1
+fi
+
+Image2Map.py 32 32 $@
+
