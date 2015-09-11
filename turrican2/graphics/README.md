@@ -1,4 +1,6 @@
 
+# Graphics
+
 Source: turrican2spy_11.zip
 
 | Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
@@ -31,7 +33,6 @@ Source: turrican2spy_11.zip
 | spr    | 47168       | 32x14   | 4            | AM   | X    | 2     |        | titlewalker          | Walker squished                   |
 | spr    | 47728       | 32x17   | 4            | AM   | X    | 1     |        | titledispenser       | Dispenser                         |
 | spr    | 22132       | 320x74  | 4            | ST   |      | 1     |        | field                | Field                             |
-
 
 ## file EDAT 
 
@@ -67,9 +68,7 @@ Source: turrican2spy_11.zip
 | setpal | bw          |         |              |      |      |       |        |                      |                                   |
 | spr    | 57276       | 8x8     | 1            | AM   | 0    | 65    |        | fontsmallsolid       | Font                              |
 
-
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | MAIN        |         |              |      |      |       |        |                      |                                   |
+## file MAIN
 
 | Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
 |--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
@@ -166,10 +165,7 @@ Source: turrican2spy_11.zip
 | setpal | lineshift   |         |              |      |      |       |        |                      |                                   |
 | spr    | 108896      | 16x192  | 2            | ST   | 0    | 2     |        | line                 | Line left + right                 |
 
-
-
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | L1-1        |         |              |      |      |       |        |                      |                                   |
+# file L1-1
 
 | Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
 |--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
@@ -212,8 +208,7 @@ Source: turrican2spy_11.zip
 | spr    | 180738      | 32x21   | 4            | AM   | X    | 1     |        | dirt                 | Falling dirt gob                  |
 | spr    | 181158      | 80x16   | 4            | AM   | X    | 3     |        | l11bosssmoke         | Boss smoke                        |
 
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | L1-2        |         |              |      |      |       |        |                      |                                   |
+# file L1-2
 
 | Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
 |--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
@@ -243,10 +238,7 @@ Source: turrican2spy_11.zip
 | spr    | 38598       | 16x16   | 4            | AM   | X    | 4     |        | vines                | Vines                             |
 | spr    | 39238       | 16x16   | 4            | ST   |      | 1     |        | vines                | Vines subtile                     |
 
-
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | L2-1        |         |              |      |      |       |        |                      |                                   |
-
+## file L2-1
 
 | Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
 |--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
@@ -282,8 +274,7 @@ Source: turrican2spy_11.zip
 | spr    | 173980      | 48x67   | 4            | AM   | X    | 3     |        | spikepillar          | Spiked spike                      |
 | spr    | 180010      | 32x23   | 4            | AM   | X    | 1     |        | spikegib             | Spike gib                         |
 
-
-| file   | L2-2
+## file L2-2
 
 | Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
 |--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
@@ -321,8 +312,11 @@ Source: turrican2spy_11.zip
 | spr    | 46894       | 48x18   | 4            | AM   | X    | 1     |        | l22bossgun           | Gripper gun                       |
 | spr    | 47434       | 32x3    | 4            | AM   | X    | 1     |        | l22bossgunlaser      | Gripper gun laser                 |
 | spr    | 47494       | 16x28   | 4            | AM   | 0    | 2     |        | l22bossbeam          | Electricity                       |
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | L3-1        |         |              |      |      |       |        |                      |                                   |
+
+# file L3-1
+
+| Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
+|--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
 | pal    | 184         | 16      | w3           |      |      |       |        |                      |                                   |
 | pal    | 7508        | 16      | w3_player    |      |      |       |        |                      |                                   |
 | pal    | 7540        | 16      | w3_b         |      |      |       |        |                      |                                   |
@@ -381,10 +375,7 @@ Source: turrican2spy_11.zip
 | spr    | 157994      | 32x19   | 4            | AM   | X    | 4     |        | l31bosseye           | Eye Boss Eye                      |
 | spr    | 159514      | 32x19   | 4            | AM   | X    | 4     |        | l31bosseyeprojectile | Eye Boss Eye Projectile           |
 
-
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | L3-2        |         |              |      |      |       |        |                      |                                   |
-
+## file L3-2
 
 | Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
 |--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
@@ -420,8 +411,8 @@ Source: turrican2spy_11.zip
 | spr    | 48340       | 32x22   | 4            | AM   | X    | 1     |        | dronespiked          | Drone spiked                      |
 | spr    | 48780       | 16x13   | 4            | AM   | X    | 1     |        | secret               | Secret pickup                     |
 | spr    | 48910       | 64x20   | 4            | AM   | X    | 6     |        | katakislives         | Katakis Lives!                    |
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | L3-3        |         |              |      |      |       |        |                      |                                   |
+
+## file L3-3
 
 | Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
 |--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
@@ -435,8 +426,11 @@ Source: turrican2spy_11.zip
 | spr    | 17120       | 16x5    | 4            | AM   | X    | 3     |        | smokedamage          | Damage smoke 2,3,4                |
 | spr    | 17270       | 16x6    | 4            | AM   | X    | 1     |        | smokedamage          | Damage smoke 5                    |
 | spr    | 17330       | 16x5    | 4            | AM   | X    | 1     |        | smokedamage          | Damage smoke 6                    |
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | L4-1        |         |              |      |      |       |        |                      |                                   |
+
+## file L4-1
+
+| Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
+|--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
 | pal    | 130         | 16      | w4           |      |      |       |        |                      |                                   |
 | setpal | bw          |         |              |      |      |       |        |                      |                                   |
 | spr    | 19608       | 32x16   | 1            | AM   |      | 77    |        | l41tilemasks         | Tile masks                        |
@@ -464,8 +458,11 @@ Source: turrican2spy_11.zip
 | spr    | 156100      | 32x16   | 4            | AM   | X    | 4     |        | ejector              | Ejector                           |
 | spr    | 157380      | 16x13   | 4            | AM   | X    | 2     |        | l41bossbomb          | Dragon boss bomb                  |
 | spr    | 157640      | 16x59   | 4            | AM   | X    | 4     |        | bigflames            | Big flames                        |
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | L4-2        |         |              |      |      |       |        |                      |                                   |
+
+## file L4-2
+
+| Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
+|--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
 | spr    | 6490        | 16x16   | 4            | ST   |      | 3     |        | l42gears             | Tile anims 1                      |
 | spr    | 6874        | 32x8    | 4            | ST   |      | 3     |        | l42gears             | Tile anims 2                      |
 | spr    | 7258        | 32x32   | 4            | ST   |      | 3     |        | l42gears             | Tile anims 3                      |
@@ -489,8 +486,11 @@ Source: turrican2spy_11.zip
 | spr    | 34434       | 32x21   | 4            | AM   | X    | 6     |        | flywalker            | Flywalker                         |
 | spr    | 36954       | 16x13   | 4            | AM   | X    | 1     |        | l4emitter            | Emitter 1                         |
 | spr    | 37084       | 16x19   | 4            | AM   | X    | 4     |        | l4emitter            | Emitter 2-5                       |
-|        |             |         |              |      |      |       |        |                      |                                   |
-| file   | L5-1        |         |              |      |      |       |        |                      |                                   |
+
+## file L5-1
+
+| Cmd    | Address     | Size    | Planes       | Mode | Mask | Count | Filter | Output               | Description                       |
+|--------|-------------|---------|--------------|------|------|-------|--------|----------------------|-----------------------------------|
 | pal    | 130         | 16      | w5           |      |      |       |        |                      |                                   |
 | spr    | 128288      | 32x24   | 4            | AM   | X    | 1     |        | l5dispenser          | Dispenser                         |
 | spr    | 128768      | 48x12   | 4            | AM   | X    | 2     |        | lift                 | Lift                              |
