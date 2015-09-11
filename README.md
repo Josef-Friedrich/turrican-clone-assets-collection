@@ -1,4 +1,8 @@
-# Tools
+# Turrican clone assets collection
+
+A Turrican (the legendary C64 / Amiga game) assets collection for a HTML5 clone.
+
+## Tools
 
 * [GfxRip](https://github.com/rofl0r/GfxRip)
 * [Turrican2spy](http://bronko.turrican.eu/index.htm?http://bronko.turrican.eu/t2spye.htm)
@@ -6,7 +10,7 @@
 * [Image2Map.py](https://gist.githubusercontent.com/bjorn/5498157/raw/6a5429db29c1620329f06de15a73f64836438d77/Image2Map.py)
 * [MapWriter.py](https://gist.githubusercontent.com/bjorn/5498157/raw/6a5429db29c1620329f06de15a73f64836438d77/MapWriter.py)
 
-# Tutorials
+## Tutorials
 
 * [Import form Image](https://github.com/bjorn/tiled/wiki/Import-from-Image)
 
