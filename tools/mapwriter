@@ -1,3 +1,3 @@
 #! /bin/sh
 
-MapWriter.py 32 32 $1.png $1_tileset.png
+MapWriter.py 32 32 $1.png $1-Tileset.png
