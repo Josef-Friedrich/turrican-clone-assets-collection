@@ -4,6 +4,8 @@ A Turrican (the legendary C64 / Amiga game) assets collection for a HTML5 clone.
 
 ## Tools
 
+* [Maptapper](http://www.codetapper.com/amiga/maptapper/)
+* [ADFlib](http://lclevy.free.fr/adflib/unadf.html)
 * [GfxRip](https://github.com/rofl0r/GfxRip)
 * [Turrican2spy](http://bronko.turrican.eu/index.htm?http://bronko.turrican.eu/t2spye.htm)
 * [Tiled](http://www.mapeditor.org/)
